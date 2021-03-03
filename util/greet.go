@@ -5,5 +5,5 @@ import (
 )
 
 func Fmtter() {
-	fmt.Println("This is a formater")
+	fmt.Println("This is a formater in TestBranch")
 }
