@@ -1,9 +1,105 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T14:08:15.464Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.2" etag="kMamVwnkizUBu_ePQF_h" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T14:45:21.265Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="69-UfVZxzuh4DuICRMfm" version="21.3.2" type="github">
   <diagram name="第 1 页" id="yn0OOS51cHA8KZ-kcn2y">
-    <mxGraphModel>
+    <mxGraphModel dx="2206" dy="1186" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qb_6oPIhnn_3hvOe22su-1" target="Qb_6oPIhnn_3hvOe22su-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-1" value="直播绑品（API）&lt;br&gt;ecom.kol.selection_pc_api&lt;br&gt;Bind" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="321.25" y="210" width="198.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qb_6oPIhnn_3hvOe22su-2" target="Qb_6oPIhnn_3hvOe22su-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-2" value="直播绑品（biz）&lt;br&gt;ecom.kol_bind.core&lt;br&gt;LiveBind" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="360" width="197.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qb_6oPIhnn_3hvOe22su-4" target="Qb_6oPIhnn_3hvOe22su-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-4" value="获取用户直播信息&lt;br/&gt;webcast.user.pack&lt;br/&gt;MultiPackedUser" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="500" width="198.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qb_6oPIhnn_3hvOe22su-6" target="Qb_6oPIhnn_3hvOe22su-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-6" value="直播间校验&lt;br/&gt;webcast.room.online_room&lt;br/&gt;MultiGetUserOnlineRoom" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="641.25" y="500" width="198.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qb_6oPIhnn_3hvOe22su-8" target="Qb_6oPIhnn_3hvOe22su-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="620" />
+              <mxPoint x="420" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-8" value="直播间商品列表数量校验&lt;br/&gt;cmp.ecom.alliance_relation&lt;br/&gt;GetUserCustomBindList" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="962.49" y="500" width="197.51" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qb_6oPIhnn_3hvOe22su-10" target="Qb_6oPIhnn_3hvOe22su-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qb_6oPIhnn_3hvOe22su-10" target="Qb_6oPIhnn_3hvOe22su-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-10" value="获取联盟Item信息&lt;br/&gt;cmp.ecom.alliance_item&lt;br/&gt;GetItems" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="680" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qb_6oPIhnn_3hvOe22su-13" target="Qb_6oPIhnn_3hvOe22su-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-13" value="获取达人绑定的列表信息&lt;br/&gt; cmp.ecom.alliance_relation GetUserCustomBindList" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="995" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qb_6oPIhnn_3hvOe22su-20" target="Qb_6oPIhnn_3hvOe22su-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-20" value="转链&lt;br/&gt;ecom.buyin.convert_link&lt;br/&gt;GenConvertLink" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="321.25" y="1350" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="Qb_6oPIhnn_3hvOe22su-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="821.25" y="1380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-22" value="ecom.buyin.settle_relation&lt;br/&gt;GenBuyinTrack" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="642.5" y="1350" width="198.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qb_6oPIhnn_3hvOe22su-24" target="Qb_6oPIhnn_3hvOe22su-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-24" value="cmp.ecom.alliance_plan&lt;br/&gt;GetInstitutionActivityId" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="963.74" y="1350" width="197.51" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-26" value="toutiao.growth.share_rpc&lt;br/&gt;TransUrl" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1281.25" y="1350" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qb_6oPIhnn_3hvOe22su-28" target="Qb_6oPIhnn_3hvOe22su-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-28" value="机审&lt;br&gt;ecom_inspect_machine_audit&lt;br/&gt;AllianceRelationGovernance" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="840" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qb_6oPIhnn_3hvOe22su-30" target="Qb_6oPIhnn_3hvOe22su-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="950" />
+              <mxPoint x="420" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-30" value="&lt;br&gt;cmp.ecom.alliance_item&lt;br&gt;UpdateItem" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="840" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qb_6oPIhnn_3hvOe22su-32" target="Qb_6oPIhnn_3hvOe22su-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qb_6oPIhnn_3hvOe22su-32" value="&lt;div&gt;直播间绑定商品&lt;/div&gt;&lt;div&gt;cmp.ecom.alliance_relation&amp;nbsp;&lt;/div&gt;&lt;div&gt;BindCustom&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320.63" y="1169" width="200" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
